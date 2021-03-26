@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ChessOn</title>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet"
+  href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css"
+  integrity="sha384-q94+BZtLrkL1/ohfjR8c6L+A6qzNH9R2hBLwyoAfu3i/WCvQjzL2RQJ3uNHDISdU"
+  crossorigin="anonymous">
+</head>
+
+<body>
+
+    <section class="hero mt-0 pt-3">
+        <div class="container-fluid ">
+            <div class="row ">
+                <div class="col-md-6  col-12">
+                    <div class="wrapper px-2">
+                        <div class="card" >
+                            <div class="card-body p-5">
+                                <h1 > Keep Calm <br> & Let's ChessOn!</h1>
+                                <h4 class="text-muted pt-3 pb-4">It's always better to sacrifice your opponent's men.”</h4>
+                               
+
+                                <!-- SCORE BOARD -->
+                                <div class="row mt-2">
+                                    <div class="col ">
+                                        <div class="card">
+                                            <div class="card-body text-right ">
+                                                <h1 class="display-1 d-flex justify-content-end text-right">
+                                                    5
+                                                </h1>
+                                                <p class=" mb-0 text-right">
+                                                    Your score
+                                                </p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col ">
+                                        <div class="card">
+                                            <div class="card-body text-right ">
+                                                <h1 class="display-1 d-flex justify-content-end text-right">
+                                                    3
+                                                </h1>
+                                                <p class=" mb-0 text-right">
+                                                    Opponent's score
+                                                </p>
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="alert alert-primary mt-3 text-center" role="alert">
+                                    Waiting for opponent's move ..
+                                  </div>
+                                <div class=" mt-0">
+                                    <h4 class="text-muted pt-3 pb-2">Moves history </h4>
+                                      <ul style = "max-height: 298px ;height: 298px;
+                                      overflow-y: auto;" class="list-group ">
+                                        <li class="list-group-item py-3 ">
+                                            <span class="d-flex justify-content-between">
+                                                <span>
+                                                    A2 to A3
+                                                </span>
+                                                <span>
+                                                    You
+                                                </span>
+                                            </span>
+                                        </li>
+                                        <li class="list-group-item py-3 " >
+                                            <span class="d-flex justify-content-between">
+                                                <span>
+                                                    A7 to A6
+                                                </span>
+                                                <span>
+                                                    Opponent
+                                                </span>
+                                            </span>
+                                        </li>
+                                        <li class="list-group-item py-3 " >
+                                            <span class="d-flex justify-content-between">
+                                                <span>
+                                                    H2 to H3
+                                                </span>
+                                                <span>
+                                                    You
+                                                </span>
+                                            </span>
+                                        </li>
+                                       
+                                      </ul>
+                                  </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 ">
+                    <div style = "max-width:100%" id="myBoard" ></div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2"
+        crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"
+        integrity="sha384-8Vi8VHwn3vjQ9eUHUxex3JSN/NFqUg3QbPyX8kWyb93+8AC/pPWTzj+nHtbC5bxD"
+        crossorigin="anonymous"></script>
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+<script>
+    var board = Chessboard('myBoard','start')
+</script>
+</body>
+
+</html>
