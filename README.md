@@ -3,8 +3,7 @@
 Project timeline and documentation can be found <a href="https://drive.google.com/drive/folders/1Gze3XuK6Gm6swOsmZ5Pfy1-UgH1pGbxp?usp=sharing">here</a>.
 `SRS`,  `Project Design` and `Implementation` can be found in the above link.
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/aNYi69mody8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+ [![ChessOn Working Demo](/ss/1.png)](https://youtu.be/aNYi69mody8)
 ## Inroduction
 ChessOn is an internet chess server. Live online chess can be played against other users at daily, rapid. Chess versus an AI is currently offered. The site tracks all of your games and will help you to visualise your skills in a better way.
 
