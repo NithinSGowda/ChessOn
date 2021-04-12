@@ -2,7 +2,9 @@
 
 Project timeline and documentation can be found <a href="https://drive.google.com/drive/folders/1Gze3XuK6Gm6swOsmZ5Pfy1-UgH1pGbxp?usp=sharing">here</a>.
 `SRS`,  `Project Design` and `Implementation` can be found in the above link.
-
+ <video width="320" height="240" controls> 
+     <source src="/ss/ChessOnFinal.mp4" type="video/mp4">
+  </video>
 ## Inroduction
 ChessOn is an internet chess server. Live online chess can be played against other users at daily, rapid. Chess versus an AI is currently offered. The site tracks all of your games and will help you to visualise your skills in a better way.
 
