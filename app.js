@@ -79,6 +79,13 @@ app.get('/move', function(req, res){
   }
 });
 
+
+app.get('/game/:userId', function (req, res){
+  chessAI.find({ userId: req.params.userId }).exec((err, content) => {
+    res.json(content)
+  })
+});
+
 app.listen(port, () => {
   console.log(`Listening on port :${port}`)
 })
