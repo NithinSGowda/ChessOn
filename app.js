@@ -2,7 +2,7 @@ const express = require('express')
 const path = require('path')
 const app = express()
 const port = 4000
-const uri = "mongodb+srv://stockapp:88888888@cluster0.o8iuu.mongodb.net/chessapi?authSource=admin&replicaSet=atlas-yebdcz-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true";
+const uri = "mongodb+srv://xxxx:xxxx@cluster0.o8iuu.mongodb.net/chessapi?authSource=admin&replicaSet=atlas-yebdcz-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true";
 const mongoose = require('mongoose');
 mongoose.connect(uri, {
     useNewUrlParser: true,
